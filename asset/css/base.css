@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #9E44BD;
+    --white: #fff;
+    --black: #000;
+    --text-color: #333; /*mau cho chu*/
+}
+
+html{
+    /* khi font-size ở giá trị này thì 1 rem bằng 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem; /*16px*/
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full__width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from { 
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
