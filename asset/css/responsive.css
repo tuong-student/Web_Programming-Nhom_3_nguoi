@@ -1,0 +1,40 @@
+@media(max-width:740px) {
+    .member_box{
+        max-width: 40rem;
+        width: calc(100% - 1rem);
+    }
+
+    .member_img{
+        max-width: 12rem;
+        max-height: 24rem;
+    }
+
+    .member_info{
+
+    }
+
+    .member_info .member_social{
+        margin-top: 3rem;
+    }
+
+    .member_social .member_social__icon{
+        font-size: 4rem;
+    }
+
+    #assignment{
+        padding: 0 1.5rem;
+    }
+
+    #footer{
+        margin: 6.4rem 0;
+    }
+
+    .footer__members{
+        margin: 0 1rem;
+    }
+
+    .footer__member{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

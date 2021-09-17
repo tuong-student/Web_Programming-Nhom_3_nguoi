@@ -2,7 +2,6 @@ html{
     background-image: url(https://media0.giphy.com/media/MU56lYT1Ov07fVTsnM/giphy-downsized-large.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: linear-gradient(0, #5B286D, #D066F4); */
     height: auto;
 }
 
@@ -56,11 +55,11 @@ html{
     max-width: 830px;
     max-height: 350px;
     height: 30vw;
+    border-radius: 60px;
+    border: 3px solid #000;
     background-image: url(https://i.pinimg.com/originals/07/f6/f1/07f6f1a1183615fb6eea8c75500c61da.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid #000;
-    border-radius: 60px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -80,9 +79,10 @@ html{
     font-size: 16px;
     color: #fff;
     margin-top: 28px;
+    margin-bottom: 0;
     line-height: 1.4;
-    text-shadow: 0 0 1px var(--black);
     font-weight: 700;
+    text-shadow: 0 0 1px var(--black);
 }
 
 .content__subhead{
@@ -105,6 +105,8 @@ html{
 .member_box{
     display: flex;
     margin-top: 64px;
+    max-width: 575px;
+    padding: 0 10px;
 }
 
 .member_img{
@@ -155,3 +157,70 @@ html{
     text-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
 }
 
+#assignment{
+    margin: 0 -10px;
+    background-image: linear-gradient(0, rgba(50, 10, 66, 0.5), #D066F4);
+}
+
+.assignment__banner{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+    max-height: 350px;
+    height: 30vw;
+    border-radius: 60px;
+    border: 3px solid #000;
+    background-image: url(https://i.pinimg.com/originals/07/f6/f1/07f6f1a1183615fb6eea8c75500c61da.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.assignment__disc{
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+
+.assignment__link{
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(57, 98, 230);
+}
+
+.assignment__link:hover{
+    opacity: 0.7;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: 64px;
+}
+
+.footer__header{
+    color: #fff;
+    align-self: center;
+    font-size: 1.6rem;
+    margin: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-shadow: 0 0 1px var(--white);
+}
+
+.footer__members{
+    color: #fff;
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 700;
+    text-shadow: 0 0 1px var(--white);
+    justify-content: space-around;
+}
+
+.footer__member{
+
+}
