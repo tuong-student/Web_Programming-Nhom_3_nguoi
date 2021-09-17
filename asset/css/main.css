@@ -15,8 +15,8 @@ html{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1;
-    background-color: #5A0B98;
+    z-index: 1;    
+    background-image: linear-gradient(0, rgba(66, 52, 71, 0.5), #D066F4);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -42,8 +42,8 @@ html{
 }
 
 #header .nav_content:hover a{
-    color: #000;
-    background-color: #ccc;
+    color: #333;
+    background-image: linear-gradient(0, rgba(240, 233, 243, 0.3), #c059e2);
     animation: fadeIn ease-in 0.3s;
     cursor: pointer;
 }
