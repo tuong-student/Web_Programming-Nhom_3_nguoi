@@ -25,6 +25,14 @@
         padding: 0 1.5rem;
     }
 
+    .small__assignment{
+        flex-wrap: wrap;
+    }
+
+    .small__assignment-item{
+        min-width: 100px;
+    }
+
     #footer{
         margin: 6.4rem 0;
     }

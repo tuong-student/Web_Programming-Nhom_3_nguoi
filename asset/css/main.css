@@ -161,7 +161,8 @@ html{
 }
 
 #assignment{
-    margin: 0 -10px;
+    padding: 36px 0;
+    margin: 12px -10px;
     background-image: linear-gradient(0, rgba(50, 10, 66, 0.5), #D066F4);
 }
 
@@ -187,17 +188,75 @@ html{
     font-size: 1.6rem;
 }
 
+.assignment__container{
+}
+
+.code-assignment__link{
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
 .assignment__link{
     display: block;
     text-align: center;
     font-size: 1.6rem;
-    color: rgb(57, 98, 230);
+    color: rgb(157 71 182);
 }
 
+.final-assignment__link{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(57, 98, 230);
+    animation: slide__LR ease-in 0.5s alternate infinite paused;
+}
+
+.final-assignment__link:hover,
 .assignment__link:hover{
     opacity: 0.7;
 }
 
+.final-assignment__link:hover{
+    animation: slide__LR ease-in 0.5s alternate infinite running;
+}
+
+.assignment__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.small__assignment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small__assignment-item{
+    text-align: center;
+    display: block;
+    flex: 1;
+    max-width: 200px;
+}
+
+.assignment__disc--small{
+    margin-bottom: 0;
+}
+
+.assignment__icon{
+    font-size: 4rem;
+    color: var(--icon-color);
+    margin: 12px 0;
+}
+
+.final__assignment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final__assignment a{
+    max-width: 200px;
+}
+
+/* footer */
 #footer{
     display: flex;
     flex-direction: column;
@@ -217,6 +276,7 @@ html{
 .footer__members{
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 700;
@@ -225,5 +285,5 @@ html{
 }
 
 .footer__member{
-
+    margin: 12px 0;
 }
